@@ -1,12 +1,4 @@
-a = int(input('enter n number: '))
+number = int(input('Enter 5 number'))
+reversed_number = ((number % 10) * 10000) + ((number // 10 % 10) * 1000) + ((number // 100 % 10) * 100) + ((number // 1000 % 10) * 10) + (number // 10000)
+print(f": {reversed_number}")
 
-n = 0
-
-while a>0:
-
-    z = a % 10
-    a = a // 10
-    n = n*10
-    n = n + z
-else:
-    print("переделывай")
