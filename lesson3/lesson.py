@@ -6,4 +6,4 @@ def absolut(lst):
 print(absolut([12,3,4,10,]))
 print(absolut([1]))
 print(absolut([]))
-print(absolut([12, 3, 4, 10, 8]))`
+print(absolut([12, 3, 4, 10, 8]))
