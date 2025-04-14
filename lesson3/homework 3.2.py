@@ -10,4 +10,4 @@ for my_list in list_of_lists:
         new_list = [last_element] + my_list[:-1]
     else:
         new_list = my_list
-    print(new_list)
+    print(new_list)ё
